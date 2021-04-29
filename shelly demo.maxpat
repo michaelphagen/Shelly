@@ -56,8 +56,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 286.0, 211.0, 228.0, 22.0 ],
-					"text" : "shelly.notification \"Some Title\" \"some Tet\""
+					"patching_rect" : [ 286.0, 211.0, 234.0, 22.0 ],
+					"text" : "shelly.notification \"Some Title\" \"some Text\""
 				}
 
 			}
@@ -68,8 +68,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 398.0, 88.0, 176.0, 22.0 ],
-					"text" : "Some Message to be displayed"
+					"patching_rect" : [ 398.0, 88.0, 185.0, 22.0 ],
+					"text" : "Some notification to be displayed"
 				}
 
 			}
@@ -80,8 +80,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 271.0, 93.0, 99.0, 22.0 ],
-					"text" : "Notification Title"
+					"patching_rect" : [ 258.0, 71.0, 145.0, 22.0 ],
+					"text" : "The title of the notification"
 				}
 
 			}

@@ -45,31 +45,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 88.5, 174.0, 61.0, 22.0 ],
-					"text" : "delay 200"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-72",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 436.0, 450.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-66",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 283.0, 511.0, 24.0, 24.0 ]
+					"patching_rect" : [ 109.0, 100.0, 54.0, 22.0 ],
+					"text" : "delay 20"
 				}
 
 			}
@@ -80,7 +57,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 82.0, 110.0, 98.0, 22.0 ],
+					"patching_rect" : [ 87.0, 53.0, 98.0, 22.0 ],
 					"text" : "unpack sym sym"
 				}
 
@@ -92,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 82.0, 80.0, 74.0, 22.0 ],
+					"patching_rect" : [ 87.0, 23.0, 74.0, 22.0 ],
 					"text" : "patcherargs"
 				}
 
@@ -104,7 +81,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 269.0, 146.0, 376.0, 33.0 ],
+					"patching_rect" : [ 274.0, 127.5, 376.0, 33.0 ],
 					"presentation_linecount" : 2,
 					"text" : "Store the String value and bang it out either on update or when the inlet is banged"
 				}
@@ -116,7 +93,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 269.0, 105.0, 376.0, 20.0 ],
+					"patching_rect" : [ 274.0, 85.0, 376.0, 20.0 ],
 					"text" : "Route Bangs to separate output so they aren't interpreted as strings"
 				}
 
@@ -128,7 +105,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 201.0, 142.0, 29.5, 22.0 ],
+					"patching_rect" : [ 206.0, 85.0, 29.5, 22.0 ],
 					"text" : "b"
 				}
 
@@ -140,7 +117,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 201.0, 105.0, 66.0, 22.0 ],
+					"patching_rect" : [ 206.0, 48.0, 66.0, 22.0 ],
 					"text" : "route bang"
 				}
 
@@ -152,7 +129,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ -1.5, 142.0, 29.5, 22.0 ],
+					"patching_rect" : [ 3.5, 85.0, 29.5, 22.0 ],
 					"text" : "b"
 				}
 
@@ -164,7 +141,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ -1.5, 111.0, 66.0, 22.0 ],
+					"patching_rect" : [ 3.5, 54.0, 66.0, 22.0 ],
 					"text" : "route bang"
 				}
 
@@ -176,7 +153,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 158.0, 190.0, 21.0, 22.0 ]
+					"patching_rect" : [ 163.0, 133.0, 90.0, 22.0 ],
+					"presentation_linecount" : 8,
+					"text" : "NotificationText"
 				}
 
 			}
@@ -187,7 +166,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 42.5, 174.0, 21.0, 22.0 ]
+					"patching_rect" : [ 17.0, 117.0, 90.0, 22.0 ],
+					"text" : "NotificationTitle"
 				}
 
 			}
@@ -198,7 +178,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 49.0, 399.5, 150.0, 33.0 ],
+					"patching_rect" : [ 54.0, 342.5, 150.0, 33.0 ],
 					"presentation_linecount" : 2,
 					"text" : "Shell Object to interpret the command"
 				}
@@ -211,7 +191,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 377.0, 346.5, 150.0, 33.0 ],
+					"patching_rect" : [ 382.0, 289.5, 150.0, 33.0 ],
 					"presentation_linecount" : 2,
 					"text" : "sprintf string builder for osascript"
 				}
@@ -224,7 +204,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 44.0, 310.0, 150.0, 33.0 ],
+					"patching_rect" : [ 49.0, 253.0, 150.0, 33.0 ],
 					"presentation_linecount" : 2,
 					"text" : "Bang to trigger notification on either string change"
 				}
@@ -236,7 +216,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 269.0, 258.5, 348.0, 20.0 ],
+					"patching_rect" : [ 274.0, 201.5, 348.0, 20.0 ],
 					"text" : "tosymbol objects to keep the strings separate if there is a space"
 				}
 
@@ -247,7 +227,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 269.0, 67.0, 484.0, 20.0 ],
+					"patching_rect" : [ 274.0, 10.0, 484.0, 20.0 ],
 					"presentation_linecount" : 2,
 					"text" : "Inlets for Notification Title and Notification Text values, order flipped for more logical inlets"
 				}
@@ -260,7 +240,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 158.0, 258.5, 57.0, 22.0 ],
+					"patching_rect" : [ 163.0, 201.5, 57.0, 22.0 ],
 					"text" : "tosymbol"
 				}
 
@@ -272,7 +252,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 42.5, 258.5, 57.0, 22.0 ],
+					"patching_rect" : [ 47.5, 201.5, 57.0, 22.0 ],
 					"text" : "tosymbol"
 				}
 
@@ -286,7 +266,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 201.0, 62.0, 30.0, 30.0 ]
+					"patching_rect" : [ 206.0, 5.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -299,7 +279,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 68.0, 30.0, 30.0 ]
+					"patching_rect" : [ 17.0, 11.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -310,7 +290,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 352.0, 356.0, 22.0 ],
+					"patching_rect" : [ 17.0, 295.0, 356.0, 22.0 ],
 					"text" : "sprintf osascript -e 'display notification \\\\\\\"%s\\\\\\\" with title \\\\\\\"%s\\\\\\\"'"
 				}
 
@@ -322,7 +302,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 12.0, 405.0, 35.0, 22.0 ],
+					"patching_rect" : [ 17.0, 348.0, 35.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"shell" : "(default)"
 					}
@@ -349,15 +329,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"order" : 1,
-					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-72", 1 ],
-					"order" : 0,
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -432,7 +403,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 1 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-39", 1 ]
 				}
 
@@ -440,7 +411,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-39", 1 ]
 				}
 
