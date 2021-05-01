@@ -81,8 +81,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 274.0, 127.5, 376.0, 33.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 368.0, 127.5, 376.0, 33.0 ],
 					"text" : "Store the String value and bang it out either on update or when the inlet is banged"
 				}
 
@@ -93,7 +92,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 274.0, 85.0, 376.0, 20.0 ],
+					"patching_rect" : [ 368.0, 85.0, 376.0, 20.0 ],
 					"text" : "Route Bangs to separate output so they aren't interpreted as strings"
 				}
 
@@ -154,7 +153,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 163.0, 133.0, 90.0, 22.0 ],
-					"presentation_linecount" : 8,
 					"text" : "NotificationText"
 				}
 
@@ -179,7 +177,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 54.0, 342.5, 150.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Shell Object to interpret the command"
 				}
 
@@ -192,7 +189,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 382.0, 289.5, 150.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "sprintf string builder for osascript"
 				}
 
@@ -204,8 +200,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 49.0, 253.0, 150.0, 33.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 49.0, 253.0, 151.0, 33.0 ],
 					"text" : "Bang to trigger notification on either string change"
 				}
 
@@ -216,7 +211,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 274.0, 201.5, 348.0, 20.0 ],
+					"patching_rect" : [ 368.0, 197.5, 348.0, 20.0 ],
 					"text" : "tosymbol objects to keep the strings separate if there is a space"
 				}
 
@@ -228,7 +223,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 274.0, 10.0, 484.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Inlets for Notification Title and Notification Text values, order flipped for more logical inlets"
 				}
 
