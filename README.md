@@ -15,6 +15,11 @@ Includes:
 1. Download the zip file from the [releases page](https://github.com/michaelphagen/Shelly/releases).
 2. Unzip the file and place the folder in your Max Library directory (either `~/Documents/Max 7 or 8/Library` or `/Users/Shared/Max 7 or 8/Packages`).
 
+## Donate
+
+If you find this project useful and you would like to donate toward on-going development you can use the link below. Any and all donations are much appreciated!
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/michaelphagen)
 
 # Modules
 # shelly.directory
